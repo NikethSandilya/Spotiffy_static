@@ -1,0 +1,38 @@
+/* we can use predefined style propeties in html only by using this css set */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+.border{
+    border: 2px solid red;
+    margin: 3px;
+}
+.flex{
+    display:flex;
+}
+.justify_center{
+    justify-content: center;
+}
+.item-center{
+    align-items:center;
+}
+.bg-black{
+    background-color: black;
+    color:white;
+}
+.invert{
+    /* Making black svg into white svg */
+    filter:invert(1);
+}
+.bg-gray{
+    background-color: #121212;
+}
+.rounded{
+    border-radius: 7px;
+}
+.m-1{
+    margin: 1px;
+}
+.p-1{
+    padding:10px;
+}
+.pointer{
+    cursor: pointer;
+}
